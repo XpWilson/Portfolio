@@ -4063,4 +4063,11 @@ input, select, textarea {
 			  filter: grayscale(0);
 			  transform: scale(1.1);
 		  }
+
+		  .circle {
+			  border-radius: 50%;
+			  -moz-border-radius: 50%;
+			  -webkit-border-radius: 50%;
+			  -o-border-radius: 50%;
+		  }
 	
