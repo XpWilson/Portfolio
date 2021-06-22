@@ -45,15 +45,40 @@
                 <hr />
 
                 <h2>Overview</h2>
-                    <p>This was a university project in which I was tasked to recreate Light’s Out from Tiger Electronics.
-                    It was a one-week endeavor to implement all of the intricacies of this game.
+                    <p>Sneaky Sneaky was a university project in which I had to master Unity’s built-in Navigation
+                        system and learn how to use state machines.
+                    
+                    <p>The objective of the game is simple, clear past four short puzzles filled with guards patrolling
+                        the area. Once you reach the end you win the game.
 
 
-                    <p>This version of Light’s Out follows the rules of the original. It’s a single-player game in which
-                        each tile has two states, an On or Off state. The goal of the game is to set all tiles to their
-                        Off state. When a player selects a tile, it and its adjacent tiles get toggled to their opposite
-                        state. Each time the game restarts there is a randomized board.
+                    <p>The gameplay is rather simple, the player is controlled by a point and click system. The player
+                        clicks in the direction they want to go and the avatar follows. The enemies, in this case, the
+                        guards follow a predetermined path based on the blue spheres in the area. The Guards all have
+                        six states. The patrol state is their default state, which is when all the guards are following
+                        their predetermined path. The Idle state is denoted by their sudden darker color palette. This
+                        indicates that the Guard has reached one of their patrol spots. They will pause for a few
+                        seconds and then proceed to their next location back in the patrol state. The Reverse state is
+                        self-explanatory, it reverses the path the Guards follow, the state is active when the Guard
+                        appears blue. The pause state is also self-explanatory, the guard is paused mid-state and they
+                        will not move until they are unpaused, paused guards appear grey. When the Guards hear the fire
+                        alarm has been tampered with they will forget about their previous patrol path and go towards
+                        the alarm to deactivate it. This is their Angry state, and once reaching the alarm they will go
+                        back to their patrol state. The final state is the Pursue state, this is only activated when the
+                        player character gets too close to a Guard. The Guard will chase the player until they are too
+                        far out of range.
+
+                     <p>The bulk of my excitement for this project was learning how to use the Navigation system in
+                         Unity. All moving entities including the player are using the NavMesh system to move around the
+                         game. Studying AI movements is a topic that fascinated me when first playing open-world games
+                         with enemies roaming about. Was it as simple as moving an entity from point A to B or was there
+                         more complexity to it? This project was my first taste of that world and I can not wait to use
+                         systems like NavMesh more in future projects.
+                    </p>   
                     </p>
+                    </p>
+                    </p>
+                    
 
                     <hr />
                     
@@ -111,7 +136,7 @@
                                     </tr>
                                     <tr>
                                         <td>Development dates</td>
-                                        <td>March 2021</td>
+                                        <td>April 2021</td>
                                     </tr>
                                     <tr>
                                         <td>Development Timeframe</td>
