@@ -11,6 +11,8 @@
 ;(function ($) {
     'use strict';
 
+    $('.lazy').lazyYT(AIzaSyDmTbh0zgY0fZjCWU48LrRN0AWMS-foajg);
+
     function setUp($el, settings) {
         var width = $el.data('width'),
             height = $el.data('height'),
