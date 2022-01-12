@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../../assets/css/main.css" />
     <link rel="stylesheet" href="../../assets/css/lightbox.min.css" />
+    <link rel="stylesheet" href="../../assets/css/lazyYT.css" />
     <script type="text/javascript" src="../../assets/js/lightbox-plus-jquery.min.js"></script>
     <noscript>
         <link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
@@ -40,34 +41,28 @@
                         <div class="col-12"><span class="image fit"><img
                                     src="../../images/images_LightsOut/FULL/LO1.png" alt="" /></span></div>
                     </div>
+                    <p><center>Trailer for Downfall</center></p>
                 </div>
 
                 <hr />
 
                 <h2>Overview</h2>
-                <p>Downfall was a university project in which I was tasked to recreate Light’s Out from Tiger
-                    Electronics.
-                    It was a one-week endeavor to implement all of the intricacies of this game.
+                <p>
+                    Downfall was my Capstone project for Full Sail University. It is based on the indie game <i>Downwell</i> by
+                <i>Ojiro Fumoto & Devolver Digital</i>. I made this along with every designer of my team, Capstone’s
+                    Finest.
+                </p>
+                <p> 
 
+                    It is a vertical-style 2D platformer game in which the player must reach the bottom of each level to
+                    progress. Along the way, there are enemies to defeat, from bats to worms to even killer robots.
+                    
+                </p>
 
-                    <p>This version of Light’s Out follows the rules of the original. It’s a single-player game in which
-                        each tile has two states, an On or Off state. The goal of the game is to set all tiles to their
-                        Off state. When a player selects a tile, it and its adjacent tiles get toggled to their opposite
-                        state. Each time the game restarts there is a randomized board.
-                    </p>
 
                     <hr />
 
-                    <div>
-                        <p style="text-align: center;">
-                            <iframe width="560" height="315"
-                                src="https://www.youtube.com/embed/videoseries?list=PLZb3Q8wk4poP1xaOEyjaJjRCYRp4_7X0w"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
 
-                        </p>
-                    </div>
 
                     <div class="box alt">
                         <div class="row gtr-uniform">
@@ -95,16 +90,63 @@
                         <hr />
 
                         <h2>Features</h2>
-                        <p>The base version of the game uses an inventory system, checkpoint system, objective system,
-                            player and camera controllers. One of the core action provided to the player is the use of
-                            the gravnull gun. The gravnnull gun allows the player to grab and launch objects. As level
-                            designers we were not allowed to edit these systems, instead we designed levels around these
-                            concepts.</p>
-                        <p>In my version of SCRAPS, I used two main level mechanics: the activation of pressure plates
-                            and object-snapping. These mechanics are taught early on to serve them as a guide on how to
-                            complete the level. There are other systems I created such as destructible walls and
-                            cutscenes to deliver a more enjoyable experience.
+                        <p> In Downfall there are two ways to attack, stomping and shooting enemies.
+
+                        <p>
+                            <h3>Shooting</h3>
+                            Shooting enemies is simple, press the spacebar in the air and a projectile gets shot below
+                            the player. Any enemies that get hit by this get destroyed. Keep in mind there is a limit to
+                            how much you can shoot at a time.
                         </p>
+                        <p>
+                            <h3>Stomping</h3>
+                            Stomping enemies is also easy. It’s as simple as landing on top of an enemy. After that,
+                            they get destroyed. If you can continuously stomp enemies without touching the ground a
+                            combo will show up, giving you rewards.
+                        </p>
+                        <p>
+                            In order to regain ammo just land on the ground or stomp on an enemy.
+                        
+                        </p>
+                        <p>   
+                            <h3>Gems</h3> 
+                            Gems are the currency of Downfall, gems appear when defeating enemies, clearing gameplay
+                            setups, or exploring secret areas. Collecting many gems in a short timeframe unlocks the Gem
+                            High ability. Which then allows the player to increase their speed.
+                        </p>
+                        <p>    
+                            Merchants are shop keepers located in every level, by trading gems you are able to get
+                            goodies such as healing items or ammo increases.
+                        </p>
+                        <p>    
+                            <h3>Dashing</h3>
+                            Double tapping the movement keys in any cardinal direction allows you to dash in
+                            that direction. Using this mechanic in the air will cost the player 1 ammo point.
+                        </p>
+                        <p>    
+                            <h3>Color Shift</h3>
+                            At any point the player is able to change the color of the background to red,
+                            green or blue (RGB) in order to clear obstacles. Platforms of the same color as the
+                            background will be considered non-existent making the player able to phase through objects.
+                        </p>    
+                        </p>
+
+                        <hr />
+
+                        <div>
+                            <h2>Dev Logs</h2>
+                            <p style="text-align: center;">
+                                <iframe width="560" height="315" loading="lazy"
+                                    src="https://www.youtube.com/embed/videoseries?list=PLZb3Q8wk4poP1xaOEyjaJjRCYRp4_7X0w"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                    <p><center>I recorded the journey of making this game on Youtube. Here’s a playlist of each
+                                        sprint done by my end.</center>
+                                    </p>
+    
+                            </p>
+                        </div>
 
                         <hr />
 
@@ -139,6 +181,10 @@
                                             Programmer |
                                             UI Artist
                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Postmortem</td>
+                                        <td><a href="#" class="button disabled">Coming soon</a></td>
                                     </tr>
                                     <tr>
                                         <td>Play the Game</td>

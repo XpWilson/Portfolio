@@ -3754,7 +3754,7 @@ input, select, textarea {
 			text-decoration: none;
 			text-transform: uppercase;
 		}
-
+			
 			#sidebar nav a:before, #sidebar nav a:after {
 				border-radius: 0.2em;
 				bottom: 0;
@@ -4075,4 +4075,3 @@ input, select, textarea {
 			  -webkit-border-radius: 50%;
 			  -o-border-radius: 50%;
 		  }
-	
