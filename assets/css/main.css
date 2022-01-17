@@ -2617,6 +2617,11 @@ input, select, textarea {
 			height: auto;
 			width: 100%;
 		}
+		.image.margin{
+			margin: 10px auto 20px;
+    		width: 100%;
+			display: block;
+		}
 
 /* List */
 
